@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="header">
+        <h3>Tic Tac Toe</h3>
+    </div>
+    <div class="container">
+        <div id="group">
+            <p>Please select your level:</p>
+          <input type="radio" id="easy" name = "level" value = "easy" >
+          <label for="easy">Easy</label>
+          <input type="radio" id="hard" name = "level" value = "hard">
+          <label for="hard">Hard</label>
+        </div>
+        <canvas></canvas>
+        <div class="images">
+            <img id="comp" src="computer.png" alt="computer icon" width="50px" height="50px">
+            <p>Who start first ?</p>
+            <img id="user" src="user.png" alt="user icon" width="50px" height="50px">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
